@@ -1,0 +1,23 @@
+Pour lancer une application Flask sur Windows, vous pouvez suivre les étapes suivantes :
+
+Ouvrez une fenêtre d'invite de commande et activez votre environnement virtuel. Pour cela, vous pouvez utiliser la commande suivante :
+Copy code
+chemin\vers\venv\Scripts\activate
+Assurez-vous de remplacer "chemin\vers\venv" par le chemin d'accès complet de votre environnement virtuel.
+
+Définissez la variable d'environnement FLASK_APP pour indiquer à Flask le nom de votre application. Par exemple, si votre application est définie dans un fichier nommé "monapp.py", vous pouvez utiliser la commande suivante :
+python
+Copy code
+set FLASK_APP=monapp.py
+(Optionnel) Si vous êtes en mode de développement, vous pouvez également définir la variable d'environnement FLASK_ENV sur "development". Cela permettra à Flask de détecter les modifications apportées à votre code et de les recharger automatiquement. Vous pouvez utiliser la commande suivante pour définir la variable d'environnement FLASK_ENV :
+python
+Copy code
+set FLASK_ENV=development
+Lancez l'application Flask en utilisant la commande "flask run". Cette commande lancera un serveur Web local qui écoute les connexions sur le port par défaut (5000). Vous pouvez utiliser la commande suivante pour lancer votre application Flask :
+Copy code
+flask run
+Si tout s'est bien passé, vous devriez voir un message indiquant que votre application est en cours d'exécution, et une URL que vous pouvez ouvrir dans un navigateur Web pour afficher votre application.
+J'espère que cela vous aidera à lancer votre application Flask sur Windows !
+
+
+

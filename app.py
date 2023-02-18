@@ -14,9 +14,9 @@ class Todo(db.Model):
     title = db.Column(db.String(100))
     complete = db.Column(db.Boolean)
 
-
-db.create_all()
-
+@app.before_first_request
+def create_tables():
+    db.create_all()
 
 @app.get("/")
 def home():
