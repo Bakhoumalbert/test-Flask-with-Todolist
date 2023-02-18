@@ -1,3 +1,4 @@
+le dossier de l'environment virtuel doit etres ignorer par git 
 Pour créer un environnement virtuel Python sur Windows, vous pouvez suivre les étapes suivantes :
 
 Ouvrez l'invite de commande en appuyant sur la touche Windows + R et en tapant "cmd" dans la zone de recherche.
@@ -22,6 +23,6 @@ Copy code
 env\Scripts\activate
 Cela activera l'environnement virtuel et vous pourrez commencer à installer des packages spécifiques à cet environnement.
 
-Vous pouvez désactiver l'environnement virtuel en utilisant la commande "deactivate".
-
-J'espère que cela vous aidera à créer et à utiliser des environnements virtuels Python sur Windows.
+apres avoir creer l'environnement virtuel taper 'pip install -r requirements.txt' pour installer les dependances
+et apres avoir ajouter d'autres packages taper la commande 'pip freeze > requirements.txt' pour ajouter les 
+nouveaux dependances dans le fichier requirements.txt
