@@ -1,0 +1,27 @@
+Pour créer un environnement virtuel Python sur Windows, vous pouvez suivre les étapes suivantes :
+
+Ouvrez l'invite de commande en appuyant sur la touche Windows + R et en tapant "cmd" dans la zone de recherche.
+
+Naviguez jusqu'au répertoire dans lequel vous souhaitez créer l'environnement virtuel en utilisant la commande "cd". Par exemple, pour naviguer jusqu'au dossier "MonProjet", vous pouvez utiliser la commande suivante :
+
+bash
+Copy code
+cd MonProjet
+Installez le module "virtualenv" en utilisant la commande pip. Si pip n'est pas déjà installé, vous pouvez le faire en installant le package "pip" à partir de l'installeur Python. Ensuite, vous pouvez installer "virtualenv" avec la commande suivante :
+Copy code
+pip install virtualenv
+Créez l'environnement virtuel en utilisant la commande suivante :
+bash
+Copy code
+virtualenv env
+Cela créera un environnement virtuel nommé "env" dans le répertoire actuel.
+
+Activez l'environnement virtuel en utilisant la commande suivante :
+bash
+Copy code
+env\Scripts\activate
+Cela activera l'environnement virtuel et vous pourrez commencer à installer des packages spécifiques à cet environnement.
+
+Vous pouvez désactiver l'environnement virtuel en utilisant la commande "deactivate".
+
+J'espère que cela vous aidera à créer et à utiliser des environnements virtuels Python sur Windows.
